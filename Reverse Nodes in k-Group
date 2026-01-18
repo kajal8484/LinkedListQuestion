@@ -31,7 +31,7 @@ curr=next;
 count++;
         }
         if(next!=null)
-        head.next=reverseKGroup(next,k);
+        head.next=reverseKGroup(next,k); //means k==count
         return prev;
     }
     public int findSize(ListNode temp)
