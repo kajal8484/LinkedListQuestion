@@ -12,7 +12,6 @@ class Solution {
     public ListNode reverseKGroup(ListNode head, int k) {
         if(head==null)
         return null;
-
         int count=0;
         int size=0;
         ListNode curr=head;
